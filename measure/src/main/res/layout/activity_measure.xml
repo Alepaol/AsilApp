@@ -6,6 +6,7 @@
     >
 
     <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
@@ -17,6 +18,7 @@
             android:background="@color/colorPrimary"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme" />
+
     </android.support.v4.widget.NestedScrollView>
 
     <android.support.design.widget.FloatingActionButton
@@ -27,4 +29,6 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:clickable="true" />
+
+
 </android.support.design.widget.CoordinatorLayout>
